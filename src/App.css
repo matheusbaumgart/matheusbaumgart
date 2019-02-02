@@ -2,59 +2,60 @@ body {
   margin: 0;
   padding: 0;
   color: #333;
-  background: #F7F7F7;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  background: #f7f7f7;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 18px;
   font-weight: 200;
 }
 
-p{
-  line-height: auto;
+p {
+  line-height: 23px;
 }
 
-a{
+a {
   text-decoration: none;
   color: inherit;
 }
 
-ul{
+ul {
   /* list-style-type: square; */
   /* list-style-position: inside; */
   padding-left: 0;
   list-style: none;
 }
 
-ul.list-special li{
+ul.list-special li {
   display: inline-block;
   margin-right: 20px;
 }
 
-ul.list-special li:before{
-  color: #999;  
-  font-size: 1em; 
-  padding-right: 8px; 
+ul.list-special li:before {
+  color: #999;
+  font-size: 1em;
+  padding-right: 8px;
   position: relative;
-  top: 0em; 
+  top: 0em;
 }
 
-ul.list-special li:first-child:before{
+ul.list-special li:first-child:before {
   left: -3px;
   padding-right: 7;
 }
 
-ul.list-special li:nth-child(odd):before{
-  content: "\25FD"; 
+ul.list-special li:nth-child(odd):before {
+  content: "\25FD";
 }
 
-ul.list-special li:nth-child(even):before{
+ul.list-special li:nth-child(even):before {
   color: #d9d9d9;
-  content: "\25CF"; 
+  content: "\25CF";
   font-size: 0.8em;
   padding-left: 2px;
   top: -1px;
 }
 
-h1{
+h1 {
   font-size: 50px;
   text-align: left;
   line-height: 52px;
@@ -62,29 +63,29 @@ h1{
   color: #444;
 }
 
-h2{
+h2 {
   font-weight: 600;
   font-size: 35px;
 }
 
-h3{
+h3 {
   font-weight: 600;
   font-size: 25px;
 }
 
-h4{
+h4 {
   font-weight: 500;
   font-size: 22px;
   margin-bottom: 15px;
 }
 
-footer{
+footer {
   color: #999;
   font-size: 15px;
   padding-top: 0 !important;
 }
 
-a.link-underline{
+a.link-underline {
   text-decoration: underline;
   font-weight: 600;
   margin-top: 0;
@@ -92,19 +93,19 @@ a.link-underline{
 
 /* MARGIN AND PADDING HELPERS */
 
-.margin-bottom-sm{
+.margin-bottom-sm {
   margin-bottom: 5px;
 }
 
-.container{
+.container {
   display: flex;
 }
 
-.sidebar{
+.sidebar {
   width: 360px;
   min-width: 360px;
-  background: #FFF;
-  background-image: url('./imgs/matheus-baumgart@2x.png');
+  background: #fff;
+  background-image: url("./imgs/matheus-baumgart@2x.png");
   background-size: 360px 460px;
   background-repeat: no-repeat;
   text-align: left;
@@ -112,29 +113,29 @@ a.link-underline{
   min-height: 100vh;
 }
 
-.sidebar .sidebar-container{
+.sidebar .sidebar-container {
   padding: 335px 40px 40px;
 }
 
-.matheus-baumgart{
+.matheus-baumgart {
   transition: all 0.3s ease;
 }
-.matheus-baumgart:hover{
+.matheus-baumgart:hover {
   transform: scale(1.03);
 }
 
-.social-media-links img{
+.social-media-links img {
   margin-right: 4px;
   width: 25px;
   opacity: 0.3;
   transition: all 0.3s ease;
 }
 
-.social-media-links img:hover{
+.social-media-links img:hover {
   opacity: 0.9 !important;
 }
 
-.main-col{
+.main-col {
   padding: 60px;
   max-width: 882px;
 }
@@ -143,51 +144,51 @@ a.link-underline{
   margin-top: 0;
 }
 
-.color-black{
+.color-black {
   font-weight: 800;
   color: #000;
 }
 
-.color-333{
+.color-333 {
   color: #333;
 }
 
-.text-bolder{
+.text-bolder {
   font-weight: 700;
 }
 
-.text-500{
+.text-500 {
   font-weight: 500;
 }
 
 /* WORK STYLES */
 
-.work-page p{
+.work-page p {
   font-size: 16px;
   color: #666;
 }
 
-.work-item{
+.work-item {
   margin-bottom: 60px;
 }
 
-.work-subtitle{
+.work-subtitle {
   color: #949494;
   font-size: 16px;
   margin-top: 5px;
 }
 
-.work-desc{
+.work-desc {
   font-size: 16px;
 }
 
-.work-images li{
+.work-images li {
   display: inline-block;
   margin-right: 10px;
   margin-bottom: 10px;
 }
 
-.work-images li img{
+.work-images li img {
   /* height: 100%; */
 }
 
@@ -196,7 +197,6 @@ a.link-underline{
   transition: all 0.4s ease-in-out;
   box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.12);
 } */
-
 
 .animate-image {
   position: relative;
@@ -231,7 +231,7 @@ a.link-underline{
   position: absolute;
   top: 20px;
   right: 20px;
-  content: '';
+  content: "";
   background-color: #fff;
   z-index: 1;
   opacity: 0;
