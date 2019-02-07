@@ -33,27 +33,27 @@ ul.list-special li {
 ul.list-special li:before {
   color: #999;
   font-size: 1em;
-  padding-right: 8px;
+  padding-right: 4px;
   position: relative;
   top: 0em;
 }
 
 ul.list-special li:first-child:before {
-  left: -3px;
-  padding-right: 7;
+  left: -1px;
+  padding-right: 4;
 }
 
-ul.list-special li:nth-child(odd):before {
+ul.list-special li:before {
   content: "\25FD";
 }
 
-ul.list-special li:nth-child(even):before {
+/* ul.list-special li:nth-child(even):before {
   color: #d9d9d9;
   content: "\25CF";
   font-size: 0.8em;
   padding-left: 2px;
   top: -1px;
-}
+} */
 
 h1 {
   font-size: 50px;
@@ -323,4 +323,40 @@ a.link-underline {
 .animate-image.hover h4 {
   -webkit-transition-delay: 0.3s;
   transition-delay: 0.3s;
+}
+
+@media only screen and (max-width: 425px) {
+  .container {
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .sidebar {
+    width: 100%;
+    min-height: auto;
+    margin: 0 auto;
+    background-color: #fff;
+    background-size: 100%;
+  }
+  .sidebar .sidebar-container {
+    padding: 335px 30px 30px;
+  }
+  .main-col {
+    padding: 50px 30px 30px;
+  }
+  .work-item figcaption,
+  .work-item figure:after,
+  .work-item figure:before {
+    display: none;
+  }
+  .animate-image {
+    background: none;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .work-item h3 {
+    margin: 0;
+  }
+  .work-item h4 {
+    display: none;
+  }
 }

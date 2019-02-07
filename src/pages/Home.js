@@ -14,8 +14,8 @@ export default class Home extends Component {
           With 10+ years of experience designing and building digital products.
           <br />
           <br />
-          Through design, I help companies produce more compelling products for
-          their customers.
+          Through design, I help companies produce better products for their
+          customers.
         </p>
 
         <br />
@@ -25,8 +25,8 @@ export default class Home extends Component {
           <span className="text-bolder">build</span>
         </h4>
         <ul className="list-special">
-          <li>User Interfaces</li>
           <li>User Experiences</li>
+          <li>User Interfaces</li>
           <li>Marketing Websites</li>
           <li>Landing Pages</li>
         </ul>

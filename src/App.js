@@ -26,8 +26,8 @@ class App extends Component {
                     />
                   </Link>
                   <p>
-                    I'm an experienced Product Designer with a Development
-                    background and a Business mindset.
+                    Product, Design, Development & Business. Experiencing it all
+                    is my hobby and Multiperspective is my superpower 🦄
                   </p>
                   <div className="social-media-links">
                     <a
