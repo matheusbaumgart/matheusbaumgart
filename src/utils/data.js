@@ -1,8 +1,19 @@
 import workAurorRetina from "../imgs/work-auror@2x.jpg";
 import workEcowareRetina from "../imgs/work-ecoware@2x.png";
+import workConqaRetina from "../imgs/work-conqa@2x.jpg";
 
 export default {
   works: {
+    conqa: {
+      id: "conqa",
+      title: "Conqa",
+      description:
+        "Conqa is a Quality assurance software that improves your productivity and profitability. Customers can structure their projects, invite collaborators, pass & fail checklists, request sign-offs, generate reports and much more.",
+      role: "Lead Product Design (UX/UI), User Research, Product Strategy",
+      roleDescription: "",
+      challenges: [],
+      image: workConqaRetina
+    },
     auror: {
       id: "auror",
       title: "Auror",

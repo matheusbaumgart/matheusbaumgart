@@ -1,10 +1,11 @@
 {
   "main.css": "static/css/main.e7e028e8.css",
   "main.css.map": "static/css/main.e7e028e8.css.map",
-  "main.js": "static/js/main.4dc3a96a.js",
-  "main.js.map": "static/js/main.4dc3a96a.js.map",
+  "main.js": "static/js/main.78bc5937.js",
+  "main.js.map": "static/js/main.78bc5937.js.map",
   "static/media/matheus-baumgart-font.svg": "static/media/matheus-baumgart-font.d15a0d1a.svg",
   "static/media/matheus-baumgart@2x.png": "static/media/matheus-baumgart@2x.d7a164b3.png",
   "static/media/work-auror@2x.jpg": "static/media/work-auror@2x.49ccec0e.jpg",
+  "static/media/work-conqa@2x.jpg": "static/media/work-conqa@2x.9cb33ae5.jpg",
   "static/media/work-ecoware@2x.png": "static/media/work-ecoware@2x.331d7a35.png"
 }
