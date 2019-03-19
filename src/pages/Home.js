@@ -33,10 +33,10 @@ export default class Home extends Component {
         </ul>
 
         <p>
-          Through a dynamic and flexibele process including Research, Prototypes
+          Through a dynamic and flexible process including Research, Prototypes
           and Usability Tests, amongst others, I'm passionate about creating
-          solutions to improve people lives and work, delivering a MLP (Minimum
-          Lovable Product) and being as productive as I can be.
+          solutions to improve people's lives and work, delivering a product
+          people love and being as productive as I can be.
         </p>
 
         <br />
