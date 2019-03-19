@@ -8,28 +8,36 @@ export default class Home extends Component {
   render() {
     return (
       <div className="main-col">
-        <h3>Hey, there!</h3>
+        <h3 style={{ margin: 0 }}>Who am I? </h3>
+        <span style={{ opacity: 0.4, fontSize: 15 }}>
+          (Not Jean Valjean, sorry)
+        </span>
         <p>
-          I’m a creative problem solver — <br />
-          With 10+ years of experience designing and building digital products.
-          <br />
-          <br />
-          Through design, I help companies produce better products for their
-          customers.
+          I'm <strong>Matt</strong>! An user-centered, quality-focused{" "}
+          <strong>Product Designer</strong>.
+          <br />I understand and define problems - I identify patterns and
+          design elegant and delightful products.
         </p>
 
         <br />
 
         <h4>
-          I <span className="text-bolder">design</span> and{" "}
-          <span className="text-bolder">build</span>
+          I'm especialised in <span className="text-bolder">designing</span> and{" "}
+          <span className="text-bolder">building</span>
         </h4>
         <ul className="list-special">
           <li>User Experiences</li>
           <li>User Interfaces</li>
+          <li>Design Systems</li>
           <li>Marketing Websites</li>
-          <li>Landing Pages</li>
         </ul>
+
+        <p>
+          Through a dynamic and flexibele process including Research, Prototypes
+          and Usability Tests, amongst others, I'm passionate about creating
+          solutions to improve people lives and work, delivering a MLP (Minimum
+          Lovable Product) and being as productive as I can be.
+        </p>
 
         <br />
 

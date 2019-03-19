@@ -26,17 +26,18 @@ class App extends Component {
                     />
                   </Link>
                   <p>
-                    Product, Design, Development & Business. Experiencing it all
-                    is my hobby and Multiperspective is my superpower 🦄
+                    Product, Design & Development - Experiencing it all is my
+                    hobby.
                   </p>
+                  <p>Multi-perspective is my superpower 🦄</p>
                   <div className="social-media-links">
-                    <a
+                    {/* <a
                       target="_blank"
                       rel="author"
                       href="http://facebook.com/matheusbaumgart"
                     >
                       <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjI0cHgiIGhlaWdodD0iMjRweCIgdmlld0JveD0iMCAwIDQzOC41MzYgNDM4LjUzNiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDM4LjUzNiA0MzguNTM2OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxnPgoJPHBhdGggZD0iTTQxNC40MSwyNC4xMjNDMzk4LjMzMyw4LjA0MiwzNzguOTYzLDAsMzU2LjMxNSwwSDgyLjIyOEM1OS41OCwwLDQwLjIxLDguMDQyLDI0LjEyNiwyNC4xMjMgICBDOC4wNDUsNDAuMjA3LDAuMDAzLDU5LjU3NiwwLjAwMyw4Mi4yMjV2Mjc0LjA4NGMwLDIyLjY0Nyw4LjA0Miw0Mi4wMTgsMjQuMTIzLDU4LjEwMmMxNi4wODQsMTYuMDg0LDM1LjQ1NCwyNC4xMjYsNTguMTAyLDI0LjEyNiAgIGgyNzQuMDg0YzIyLjY0OCwwLDQyLjAxOC04LjA0Miw1OC4wOTUtMjQuMTI2YzE2LjA4NC0xNi4wODQsMjQuMTI2LTM1LjQ1NCwyNC4xMjYtNTguMTAyVjgyLjIyNSAgIEM0MzguNTMyLDU5LjU3Niw0MzAuNDksNDAuMjA0LDQxNC40MSwyNC4xMjN6IE0zNzMuMTU1LDIyNS41NDhoLTQ5Ljk2M1Y0MDYuODRoLTc0LjgwMlYyMjUuNTQ4SDIxMC45OVYxNjMuMDJoMzcuNDAxdi0zNy40MDIgICBjMC0yNi44MzgsNi4yODMtNDcuMTA3LDE4Ljg0My02MC44MTNjMTIuNTU5LTEzLjcwNiwzMy4zMDQtMjAuNTU1LDYyLjI0Mi0yMC41NTVoNDkuOTYzdjYyLjUyNmgtMzEuNDAxICAgYy0xMC42NjMsMC0xNy40NjcsMS44NTMtMjAuNDE3LDUuNTY4Yy0yLjk0OSwzLjcxMS00LjQyOCwxMC4yMy00LjQyOCwxOS41NTh2MzEuMTE5aDU2LjUzNEwzNzMuMTU1LDIyNS41NDh6IiBmaWxsPSIjMDAwMDAwIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" />
-                    </a>
+                    </a> */}
                     <a
                       target="_blank"
                       rel="author"
