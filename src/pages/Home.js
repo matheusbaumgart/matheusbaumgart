@@ -61,7 +61,7 @@ export default class Home extends Component {
                   <h3>{work.title}</h3>
                   <h4>{work.description}</h4>
                 </figcaption>
-                {/* <Link to={"/work/" + work.id} /> */}
+                <Link to={"/work/" + work.id} />
               </figure>
               <p className="work-subtitle">
                 <span className="text-500 color-333">{work.title}</span> —{" "}
