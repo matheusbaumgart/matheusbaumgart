@@ -192,10 +192,20 @@ a.link-underline {
   /* height: 100%; */
 }
 
-/* .animate-image:hover{
+.back-button {
+  color: #949494;
+  text-decoration: underline;
+}
+
+.back-button:hover {
+  text-decoration: none;
+  color: #555;
+}
+
+/* .animate-image:hover {
   transform: scale(1.01);
-  transition: all 0.4s ease-in-out;
-  box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.12);
+  transition: all 0.2s ease-in-out;
+  box-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.12);
 } */
 
 .animate-image {
@@ -349,8 +359,11 @@ a.link-underline {
   .work-item figure:before {
     display: none;
   }
-  .animate-image {
-    background: none;
+  .animate-image:hover img {
+    zoom: 1;
+    filter: alpha(opacity=1);
+    -webkit-opacity: 1;
+    opacity: 1;
   }
 }
 @media only screen and (max-width: 1024px) {

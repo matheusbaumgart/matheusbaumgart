@@ -1,11 +1,16 @@
 {
-  "main.css": "static/css/main.e5e3e5dd.css",
-  "main.css.map": "static/css/main.e5e3e5dd.css.map",
-  "main.js": "static/js/main.b607b5c8.js",
-  "main.js.map": "static/js/main.b607b5c8.js.map",
+  "main.css": "static/css/main.6749d9db.css",
+  "main.css.map": "static/css/main.6749d9db.css.map",
+  "main.js": "static/js/main.e9933756.js",
+  "main.js.map": "static/js/main.e9933756.js.map",
+  "static/media/auror-profile.jpg": "static/media/auror-profile.5aabfd49.jpg",
+  "static/media/conqa-user-journey.png": "static/media/conqa-user-journey.cb20a013.png",
+  "static/media/conqa-users.jpg": "static/media/conqa-users.bc4bc198.jpg",
   "static/media/matheus-baumgart-font.svg": "static/media/matheus-baumgart-font.088a2226.svg",
   "static/media/matheus-baumgart@2x.png": "static/media/matheus-baumgart@2x.1e522956.png",
-  "static/media/work-auror@2x.jpg": "static/media/work-auror@2x.49ccec0e.jpg",
+  "static/media/work-auror-back@2x.jpg": "static/media/work-auror-back@2x.d4f64801.jpg",
+  "static/media/work-auror@2x.jpg": "static/media/work-auror@2x.42069b65.jpg",
+  "static/media/work-conqa-back@2x.jpg": "static/media/work-conqa-back@2x.a9605748.jpg",
   "static/media/work-conqa@2x.jpg": "static/media/work-conqa@2x.9cb33ae5.jpg",
   "static/media/work-ecoware@2x.png": "static/media/work-ecoware@2x.331d7a35.png"
 }

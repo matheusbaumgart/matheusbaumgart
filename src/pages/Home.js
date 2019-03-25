@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import data from "../utils/data";
 
@@ -46,11 +46,17 @@ export default class Home extends Component {
         {Object.keys(data.works).map(item => {
           let work = data.works[item];
           let workImage = work.image;
+          let workImageBack = work.imageBack;
 
           return (
             <div key={work.id} className="work-item">
               <figure className="animate-image">
-                <img src={workImage} alt={"work " + work.title} />
+                <img
+                  src={workImage}
+                  // onMouseOver={e => (e.currentTarget.src = workImageBack)}
+                  // onMouseOut={e => (e.currentTarget.src = workImage)}
+                  alt={"work " + work.title}
+                />
                 <figcaption>
                   <h3>{work.title}</h3>
                   <h4>{work.description}</h4>
