@@ -34,9 +34,9 @@ export default class Home extends Component {
 
         <p>
           Through a dynamic and flexible process including Research, Prototypes
-          and Usability Tests, amongst others, I'm passionate about creating
-          solutions to improve people's lives and work, delivering a product
-          people love and being as productive as I can be.
+          and Usability Tests, amongst others, I create
+          solutions to improve people's lives, delivering a product
+          people love and use.
         </p>
 
         <br />
@@ -60,6 +60,7 @@ export default class Home extends Component {
                 <figcaption>
                   <h3>{work.title}</h3>
                   <h4>{work.description}</h4>
+                  <span className="portfolio-button" to={"/work/" + work.id}><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZD0iTTE5IDE5SDVWNWg3VjNINWMtMS4xMSAwLTIgLjktMiAydjE0YzAgMS4xLjg5IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0ydi03aC0ydjd6TTE0IDN2MmgzLjU5bC05LjgzIDkuODMgMS40MSAxLjQxTDE5IDYuNDFWMTBoMlYzaC03eiIvPjwvc3ZnPg=="></img></span>
                 </figcaption>
                 <Link to={"/work/" + work.id} />
               </figure>

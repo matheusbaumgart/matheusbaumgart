@@ -176,6 +176,7 @@ a.link-underline {
   color: #949494;
   font-size: 16px;
   margin-top: 5px;
+  margin-bottom: 3px;
 }
 
 .work-desc {
@@ -202,6 +203,23 @@ a.link-underline {
   color: #555;
 }
 
+.portfolio-button {
+  padding: 6px 8px;
+  font-size: 16px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  vertical-align: center;
+}
+
+.portfolio-button img {
+  opacity: 0.6;
+}
+
+.animate-image:hover .portfolio-button img{
+  opacity: 0
+}
+
 /* .animate-image:hover {
   transform: scale(1.01);
   transition: all 0.2s ease-in-out;
@@ -218,7 +236,6 @@ a.link-underline {
   text-align: left;
   font-size: 16px;
   background: #000;
-  border-radius: 5px;
 }
 
 .animate-image *,
