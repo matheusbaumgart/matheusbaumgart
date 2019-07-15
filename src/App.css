@@ -189,10 +189,6 @@ a.link-underline {
   margin-bottom: 10px;
 }
 
-.work-images li img {
-  /* height: 100%; */
-}
-
 .back-button {
   color: #949494;
   text-decoration: underline;
@@ -209,7 +205,6 @@ a.link-underline {
   position: absolute;
   bottom: 0;
   right: 0;
-  vertical-align: center;
 }
 
 .portfolio-button img {
@@ -279,6 +274,7 @@ a.link-underline {
   left: 0;
   bottom: 0;
   padding: 25px;
+  width: 100%;
 }
 
 .animate-image h3 {
@@ -371,7 +367,8 @@ a.link-underline {
   .main-col {
     padding: 50px 30px 30px;
   }
-  .work-item figcaption,
+  .work-item figcaption h3,
+  .work-item figcaption h4,
   .work-item figure:after,
   .work-item figure:before {
     display: none;
@@ -382,8 +379,11 @@ a.link-underline {
     -webkit-opacity: 1;
     opacity: 1;
   }
+  .animate-image:hover .portfolio-button img{
+    opacity: 1
+  }
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1190px) {
   .work-item h3 {
     margin: 0;
   }
