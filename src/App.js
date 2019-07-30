@@ -6,6 +6,7 @@ import matheusBaumgartLogo from "./imgs/matheus-baumgart-font.svg";
 
 import Home from "./pages/Home";
 import Work from "./pages/Work";
+import PrivacyToday from "./pages/PrivacyToday";
 
 import { BrowserRouter as Router, Link, Route } from "react-router-dom";
 
@@ -58,6 +59,7 @@ class App extends Component {
               <div>
                 <Route exact path="/" component={Home} />
                 <Route path="/work/:id" component={Work} />
+                <Route path="/privacy/today" component={PrivacyToday} />
 
                 <footer className="main-col">
                   © {new Date().getFullYear()} Matheus Baumgart. All the rights
