@@ -6,9 +6,23 @@ import workConqa from "../imgs/work-conqa@2x.jpg";
 import workConqaJourney from "../imgs/conqa-user-journey.png";
 import workConqaUsers from "../imgs/conqa-users.jpg";
 import workConqaBack from "../imgs/work-conqa-back@2x.jpg";
+import workReap from "../imgs/work-reap@2x.jpg";
 
 export default {
   works: {
+    reap: {
+      id: "reap",
+      title: "Reap",
+      description:
+        "Reap provides information on NZX listed companies in a simple graphical format. Receive updates on news announcements, financial results, share prices and more.",
+      role: "Co-founder, Product & Design",
+      roleDescription: "",
+      challenges: [
+
+      ],
+      image: workReap,
+      imageBack: workReap
+    },
     conqa: {
       id: "conqa",
       title: "Conqa",
@@ -39,7 +53,7 @@ export default {
       title: "Auror",
       description:
         "Auror is a crime reporting and prevention platform used by major retailers and the police in New Zealand and Australia. Auror has a big impact in keeping our community safe and businesses dramatically lowering their losses.",
-      role: "Product Design (UI/UX), Front-end Development (SCSS & React)",
+      role: "Product Design (UI/UX), Design System, Front-end Development (SCSS & React)",
       roleDescription:
         "I led the Design and part of the front-end (HTML/CSS) of Auror across Web, Mobile and Desktop since day one. Having worked with the NZ & AUS police and major retailers for 3,5 years I’ve designed solutions that saved retailers milions of dollars, got criminals behind bars and kept our community safer.",
       challenges: [

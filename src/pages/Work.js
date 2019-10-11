@@ -22,9 +22,12 @@ export default class Work extends Component {
           <p>{work.description}</p>
 
           <br />
-          <h4 className="text-bolder">My Role</h4>
-          <p>{work.roleDescription}</p>
-
+          {work.roleDescription &&
+            <div>
+              <h4 className="text-bolder">My Role</h4>
+              <p>{work.roleDescription}</p>
+            </div>
+          }
           <br />
 
           {work.challenges.map(challenge => (

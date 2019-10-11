@@ -22,7 +22,7 @@ export default class Home extends Component {
         <br />
 
         <h4>
-          I'm especialised in <span className="text-bolder">designing</span> and{" "}
+          I'm specialised in <span className="text-bolder">designing</span> and{" "}
           <span className="text-bolder">building</span>
         </h4>
         <ul className="list-special">
