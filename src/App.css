@@ -1,8 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  color: #444;
-  background: #f7f7f7;
+  color: #ccc;
+  background: #202020;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
     Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 18px;
@@ -80,15 +80,36 @@ h4 {
 }
 
 footer {
+  margin-top: 40px;
+  margin-bottom: 30px;
   color: #999;
   font-size: 15px;
   padding-top: 0 !important;
 }
 
+footer p {
+  margin: 0;
+  font-size: 12px;
+  color: #555;
+}
+
 a.link-underline {
   text-decoration: underline;
-  font-weight: 600;
+  font-weight: 500;
   margin-top: 0;
+  color: #fff;
+}
+
+a.link-underline:hover {
+  text-decoration: none;
+}
+
+.padder {
+  padding: 60px;
+}
+
+.padder-vertical {
+  padding: 0 60px;
 }
 
 /* MARGIN AND PADDING HELPERS */
@@ -104,7 +125,7 @@ a.link-underline {
 .sidebar {
   width: 360px;
   min-width: 360px;
-  background: #fff;
+  background: #000;
   background-image: url("./imgs/matheus-baumgart@2x.png");
   background-size: 360px 360px;
   background-repeat: no-repeat;
@@ -115,6 +136,10 @@ a.link-underline {
 
 .sidebar .sidebar-container {
   padding: 330px 40px 40px;
+}
+
+.sidebar p {
+  color: #888;
 }
 
 .matheus-baumgart {
@@ -135,22 +160,9 @@ a.link-underline {
   opacity: 0.9 !important;
 }
 
-.main-col {
-  padding: 60px;
-  max-width: 882px;
-}
-
-.main-col h3 {
-  margin-top: 0;
-}
-
 .color-black {
   font-weight: 800;
   color: #000;
-}
-
-.color-333 {
-  color: #333;
 }
 
 .text-bolder {
@@ -165,18 +177,36 @@ a.link-underline {
 
 .work-page p {
   font-size: 16px;
-  color: #666;
 }
 
 .work-item {
-  margin-bottom: 60px;
+  margin-bottom: 100px;
 }
 
-.work-subtitle {
-  color: #949494;
-  font-size: 16px;
+.work-image {
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+.work-image:hover {
+  opacity: 0.8;
+}
+
+.work-item a {
+  display: block;
+}
+
+.work-title {
+  font-weight: 500;
+  color: #fff;
   margin-top: 5px;
   margin-bottom: 3px;
+}
+
+.work-role {
+  margin: 0;
+  font-size: 15px;
+  color: #949494;
 }
 
 .work-desc {
@@ -200,19 +230,25 @@ a.link-underline {
 }
 
 .portfolio-button {
-  padding: 6px 8px;
+  padding: 8px;
   font-size: 16px;
   position: absolute;
   bottom: 0;
   right: 0;
+  background-color: rgba(255, 255, 255, 0.151);
+  display: none;
 }
 
 .portfolio-button img {
   opacity: 0.6;
 }
 
-.animate-image:hover .portfolio-button img{
-  opacity: 0
+.animate-image:hover .portfolio-button img {
+  opacity: 0;
+}
+
+.animate-image:hover .portfolio-button {
+  opacity: 0;
 }
 
 /* .animate-image:hover {
@@ -349,6 +385,14 @@ a.link-underline {
 }
 
 @media only screen and (max-width: 769px) {
+  .padder {
+    padding: 30px;
+  }
+
+  .padder-vertical {
+    padding: 0 30px;
+  }
+
   .container {
     -ms-flex-direction: column;
     flex-direction: column;
@@ -357,16 +401,13 @@ a.link-underline {
     width: 100%;
     min-height: auto;
     margin: 0 auto;
-    background-color: #fff;
     background-size: 100%;
   }
   .sidebar .sidebar-container {
     padding: 435px 30px 30px;
     padding-top: 90vw;
   }
-  .main-col {
-    padding: 50px 30px 30px;
-  }
+
   .work-item figcaption h3,
   .work-item figcaption h4,
   .work-item figure:after,
@@ -379,8 +420,8 @@ a.link-underline {
     -webkit-opacity: 1;
     opacity: 1;
   }
-  .animate-image:hover .portfolio-button img{
-    opacity: 1
+  .animate-image:hover .portfolio-button img {
+    opacity: 1;
   }
 }
 @media only screen and (max-width: 1190px) {
