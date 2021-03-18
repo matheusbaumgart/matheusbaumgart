@@ -38,7 +38,7 @@ export default {
       title: "Conqa",
       description:
         "Conqa is a Quality assurance software that improves productivity and profitability. Customers can structure their projects, invite collaborators, pass & fail checklists, request sign-offs, generate reports and much more.",
-      role: "Lead Product Design, User Research, Product Strategy",
+      role: "Product Design, User Research, Product Strategy",
       roleDescription:
         "My job at Conqa has been mostly around Project Strategy and System Design. As a solo Product Designer leading the product alongside a fellow Product Manager my role entails all disciplines of design, from research to final visual designs and measuring success.",
       challenges: [

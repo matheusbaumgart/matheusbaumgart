@@ -12,13 +12,18 @@ export default class Home extends Component {
           <h3 style={{ margin: 0, color: "#fff" }}>Hello!</h3>
           <p>
             I'm <span style={{ fontWeight: 500, color: "#fff" }}>Matt</span>, an
-            user-centered quality-focused Product Designer and Entrepeneur.
-            <br />I understand and define problems, identifying patterns and
-            designing solutions.
-          </p>
-
-          <p>
-            Maker of{" "}
+            user-centered quality-focused Product & Design leader, also an
+            indie-hacker. <br />
+            Head of UX & Design at{" "}
+            <a
+              className="link-underline"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://datch.io"
+            >
+              Datch
+            </a>{" "}
+            and Maker of{" "}
             <a
               className="link-underline"
               target="_blank"
